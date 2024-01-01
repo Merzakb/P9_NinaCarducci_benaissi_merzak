@@ -12,15 +12,47 @@
 	<meta property="og:url" content="https://merzakb.github.io/P9_NinaCarducci_benaissi_merzak/"/>
 	<meta property="og:image" content="https://merzakb.github.io/P9_NinaCarducci_benaissi_merzak/images/nina.webp" />
     <meta name="robots" content="index, follow">
+    
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+
 	<script src="./assets/bootstrap/bootstrap.bundle.js" async></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" async></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
+    <script type="application/ld+json" defer>
+        {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Nom de l'entreprise",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Rue Principale",
+            "addressLocality": "Ville",
+            "addressRegion": "Région",
+            "postalCode": "12345"
+          },
+          "telephone": "0123-456-789",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Monday",
+              "opens": "10:00",
+              "closes": "19:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Tuesday",
+              "opens": "10:00",
+              "closes": "19:00"
+            },
+            // ... autres jours ...
+          ]
+        }
+    </script>
     <title>Nina CARADUCCI | Photographe professionnelle à Bourdeaux</title>
 </head>
 <body>
@@ -157,7 +189,7 @@
 
     <!-- footer -->
     <footer id="contact">
-        <div class="container">
+        <div class="container"> 
             <div class="form-container">
                 <h2>Une question ? Une demande de devis ?</h2>
                 <p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
